@@ -109,6 +109,12 @@ h4 {
     padding: .5rem;
     position: relative;
 }
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    font-size: 2rem;
+    text-align: center;
+}
 
 /* About Section */
 .about-left,
