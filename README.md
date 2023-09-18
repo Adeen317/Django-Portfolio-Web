@@ -1,5 +1,5 @@
 # Django-Portfolio-Web
-Certainly, here are the steps to create a folder, set up a virtual environment, install Django, create a Django project, and run the development server:
+Here are the steps to create a folder, set up a virtual environment, install Django, create a Django project, and run the development server:
 
 1. **Create a Folder**: First, create a new directory for your Django project. You can do this by opening your file explorer and right-clicking to create a new folder. Name it something relevant to your project.
 
