@@ -1,0 +1,172 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+<body>
+  <nav id="navbar" class="flex s-around bg-color">
+    <div class="left-nav">
+      <h2 class="t-white">Welcome to My Portfolio</h2>
+    </div>
+    <ul class="right-nav">
+      <li><a href="#home" class="t-white roboto">Home<i class="fa-solid fa-solid"></i></a></li>
+      <li><a href="#about" class="t-white roboto">About me<i class="fa-solid fa-solid"></i> </a></li>
+      <li><a href="#skills" class="t-white roboto">Skills<i class="fa-solid fa-code"></i> </a></li>
+      <li><a href="#Project" class="t-white roboto">Projects<i class="fa-solid fa-project-diagram"></i> </a></li>
+      <li><a href="#Contact" class="t-white roboto">Contact<i class="fa-solid fa-rocket"></i> </a></li>
+    </ul>
+  </nav>
+
+  <!-- home section -->
+  <section id="home" class="flex s-around sw-80 m-auto">
+    <div class="home-left flex items-center">
+      <div class="home-content">
+        <h6 class="popinss">Hi ,i'm</h6>
+        <h1 class="t-white">Muhammad Adeen</h1>
+        <h4 class="popinss">Computer Systems Engineer</h4>
+        <a href="{%static 'pdf/Muhammad_Adeen_CV.pdf'%}" target="_blank">
+          <button class="btn popinss">Resume</button>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammad-adeen-661932184/" target="_blank">
+          <button class="btn popinss mx-1">Connect With Me</button>
+        </a>
+      </div>
+    </div>
+    <div class="home-right flex s-center items-center">
+      <div class="circle flex s-center items-center" id="mainImage">
+        <img src="{%static 'images/adeen.png'%}" alt="picture">
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section id="about">
+    <h1 class="t-center my-2 t-white f-2">ABOUT ME <menu></menu></h1>
+    <div class="about-container flex s-around">
+      <div class="about-left flex s-center items-center">
+        <img src="{%static 'images/work1.gif'%}" alt="picture1">
+      </div>
+    </div>
+    <div class="about-right flex">
+      <div class="about-content">
+        <h1 class="t-white m-b-1 popinss">Muhammad Adeen</h1>
+        <p class="t-white popinss">My bachelor's degree at Usman Institute of Technology(UIT) is in Electrical Engineering (Computer Systems).
+          Data analysis and Programming are two of my favorite areas to focus. Python, C++, SQL, and MATLAB are every
+          programming language I'm familiar with. I also have Arduino practical experience, which has allowed me to build
+          and design a number of electrical projects and demonstrate my ability for combining software and hardware.</p>
+          <a href="https://github.com/Adeen317" target="_blank">
+            <button class="btn popinss">Hire Me</button>
+          </a>
+      </div>
+    </div>
+  </section>
+
+  <!--skills section-->
+  <section id="skills">
+    <h1 class="t-center my-2 t-white f-2">SKILLS</h1>
+    <div class="services-container flex s-around items-center">
+      <img src="{%static 'images/skills.png'%}" alt="skills image">
+    </div>
+    <div class="skills-right flex items-center">
+      <div class="skills-container">
+        <div class="python bar p-relative"><span class="bar-content left t-white">Python</span>
+        <span class="bar-content right-skills t-white">90%</span></div>
+        <div class="html bar p-relative"><span class="bar-content left t-white">HTML & CSS</span>
+          <span class="bar-content right-skills t-white">70%</span></div>
+        <div class="matlab bar p-relative"><span class="bar-content left t-white">MATLAB</span>
+          <span class="bar-content right-skills t-white">80%</span></div>
+        <div class="c_language bar p-relative"><span class="bar-content left t-white">C++</span>
+          <span class="bar-content right-skills t-white">80%</span></div>
+        <div class="sql bar p-relative"><span class="bar-content left t-white">MYSQL</span>
+          <span class="bar-content right-skills t-white">90%</span></div>
+        <div class="assembly_language bar p-relative"><span class="bar-content left t-white">Assembly Language</span>
+          <span class="bar-content right-skills t-white">80%</span></div>
+        <div class="microsoft bar p-relative"><span class="bar-content left t-white">Microsoft Office</span>
+          <span class="bar-content right-skills t-white">95%</span></div>
+      </div>
+    </div>
+  </section>
+  <!--project section-->
+  <section id="Project">
+    <h1 class="t-center my-2 t-white f-2">PROJECTS</h1>
+    <div class="project-container s-center">
+      <div class="project-item flex f-col s-center ">
+        <h1 class="t-white popinss">Data Visualization with Python</h1>
+        <p class="t-white popinss">In this section we have covered data visualzation techniques through python programming language. In order to perform visualzation on the dataset of (Automobile Sales from 1984-2023) in python.</p>
+        <div class="button flex ">
+          <a href="https://github.com/Adeen317/DataAnalysis" target="_blank" class="btn mx-1 m-top">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-item f-col s-center ">
+        <h1 class="t-white popinss">GUI interfaces Using Tkinter</h1>
+        <p class="t-white popinss">In this section we have created GUIs using TKinter python.</p>
+        <div class="button flex">
+          <a href="https://github.com/Adeen317/GUI_Interfaces_Using_Tkinter" target="_blank" class="btn mx-1 m-top">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-item f-col s-center ">
+        <h1 class="t-white popinss">Projects With Arduino</h1>
+        <p class="t-white popinss">In this section we have created different projects using arduino.</p>
+        <div class="button flex">
+          <a href="https://github.com/Adeen317/ProjectsWithArduino" target="_blank" class="btn mx-1 m-top">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact me section-->
+  <section id="Contact" class="m-b-1">
+    <h1 class="t-center my-2 t-white f-2">CONTACT ME</h1>
+    <div class="Contact-container flex s-around items-center">
+      <div class="form" id="contactform">
+        <form method="post">
+          <div class="name form-div">
+            <input type="text" name="name" id="name" class="popinss" placeholder="Enter your Name">
+          </div>
+          <div class="email form-div">
+            <input type="email" name="email" id="" class="popinss" placeholder="Enter your Email"required>
+          </div>
+          <div class="phone form-div">
+            <input type="phone" name="number" id="" class="popinss" placeholder="Enter your Phone no"required>
+          </div>
+          <div class="textarea form-div">
+            <textarea name="content" id="textarea" cols="30" rows="10" class="popinss" placeholder="Write your Message"></textarea>
+
+          </div>
+          <button type="submit" class="btn popinss" id="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--footer section-->
+  <ul class="flex s-center w-80 m-auto my-2 res">
+    <li><a href="#home" class="popinss">Home</a></li>
+    <li><a href="#about" class="popinss">About Me</a></li>
+    <li><a href="#skills" class="popinss">Skills</a></li>
+    <li><a href="#projects" class="popinss">Projects</a></li>
+    <li><a href="#portfolio" class="popinss">Portfolio</a></li>
+  </ul>
+  <ul class="flex s-center w-80 font-awesome">
+    <a href="https://www.linkedin.com/in/muhammad-adeen-661932184/" target="">
+      <li><i class="btn mx-1">Linkedin</i>
+    </a>
+    <a href="https://github.com/Adeen317" target="">
+      <li><i class="btn mx-1">GitHub</i>
+    </a>
+    <a href="https://www.fiverr.com/muhammadadeen77/create-and-organize-your-github-with-my-expertise" target="">
+      <li><i class="btn mx-1">Fiverr</i>
+    </a>
+    <a href="https://www.facebook.com" target="">
+      <li><i class="btn mx-1">Facebook</i>
+    </a>
+    <p class="my-2 popinss">Allrightsreserved-<span class="popinss">Muhammad Adeen</span></p>
+  </ul>
+</body>
+</html>
