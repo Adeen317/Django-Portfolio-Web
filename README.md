@@ -46,4 +46,5 @@ Certainly, here are the steps to create a folder, set up a virtual environment, 
 8. **Access the Development Server**: Copy the URL displayed in the command prompt and paste it into your web browser to access your Django project.
 
 These steps will help you create a clean development environment and get your Django project up and running professionally.
+
 ![My Portfolio](https://github.com/Adeen317/Django-Portfolio-Web/assets/112985225/f2048cb8-4c79-4895-ae4a-f1047c63d753)
